@@ -1,11 +1,12 @@
 repo_name: ashleanichols/turtle
 report_id: 3962e2b53e320ef681f7629527035aa9
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:02:43+00:00'
+timestamp: '2024-01-04T15:08:18+00:00'
 requested_by: brentvatne
 provider: github
 branch: master
-detected_tools_count: 59
+detected_tools_count: 61
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ashleanichols/turtle
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -38,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ashleanichols/turtle
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -49,6 +53,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -61,7 +66,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/Dockerfile
+  detection_source: Dockerfile
   last_updated_by: Dominik Sokal
   last_updated_on: 2020-06-22 11:42:07.000000000 Z
 - name: Bunyan
@@ -73,7 +79,7 @@ tools:
   category: Monitoring
   sub_category: Logging Tools
   image_url: https://img.stackshare.io/service/10249/no-img-open-source.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2020-03-23 23:17:18.000000000 Z
@@ -85,6 +91,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-04-01 11:25:30.000000000 Z
@@ -97,6 +104,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ashleanichols/turtle
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -106,6 +114,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashleanichols/turtle
   detection_source: Repo Metadata
 - name: Gradle
   description: A powerful build system for the JVM
@@ -116,6 +125,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/docker-base/Dockerfile
   detection_source: docker-base/Dockerfile
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2020-09-04 09:19:08.000000000 Z
@@ -129,7 +139,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -142,6 +152,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/ashleanichols/turtle
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -151,6 +162,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -162,6 +174,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -173,6 +186,7 @@ tools:
   category: Monitoring
   sub_category: Exception Monitoring
   image_url: https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -185,6 +199,7 @@ tools:
   category: Monitoring
   sub_category: Cloud Monitoring
   image_url: https://img.stackshare.io/service/734/lHYLxJV3_400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -196,6 +211,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -207,6 +223,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: yarn.lock
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -220,7 +237,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Brent Vatne
   last_updated_on: 2021-03-29 23:29:56.000000000 Z
@@ -232,6 +249,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -244,7 +262,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-05-20 09:33:48.000000000 Z
@@ -257,12 +275,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ashleanichols/turtle
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-04-03 09:37:44.000000000 Z
@@ -271,6 +291,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/package.json
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-04-03 09:37:44.000000000 Z
@@ -284,7 +305,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -298,7 +319,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18175/default_0dba38f16e89e401bb4382c2d3f09881aac7fd70.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -312,7 +333,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -326,7 +347,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17267/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -340,7 +361,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -354,7 +375,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16354/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -368,7 +389,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17088/default_32da0e64c9ec90f8f302a76668f802f1f4d08177.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -382,7 +403,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -396,7 +417,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -410,7 +431,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16215/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -424,7 +445,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17966/default_cc042fd7c0a9cf091d301af307c99c8b7b08b8bc.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
@@ -438,7 +459,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -459,7 +480,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2020-01-17 11:09:27.000000000 Z
@@ -473,7 +494,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17538/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -487,7 +508,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17729/default_abcc2eea82e62d338a749f334647866df76198b8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-07-11 14:57:00.000000000 Z
@@ -502,10 +523,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-08-23 12:44:35.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Dominik Sokal
+  last_updated_on: 2019-04-03 09:37:44.000000000 Z
 - name: ioredis
   description: A robust
   package_url: https://www.npmjs.com/ioredis
@@ -516,7 +551,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16522/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2020-06-22 13:00:42.000000000 Z
@@ -530,10 +565,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 8.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Dominik Sokal
+  last_updated_on: 2019-04-03 09:37:44.000000000 Z
 - name: nock
   description: HTTP server mocking and expectations library for Node.js
   package_url: https://www.npmjs.com/nock
@@ -544,7 +593,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Haito
   last_updated_on: 2018-11-22 13:23:47.000000000 Z
@@ -558,7 +607,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16410/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-10-16 08:29:35.000000000 Z
@@ -572,7 +621,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17666/default_fc76e978e9d0682c81d41dcce6c217fcd73fe671.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Quinlan Jung
   last_updated_on: 2020-01-17 11:10:18.000000000 Z
@@ -586,7 +635,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16490/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-07-31 11:41:00.000000000 Z
@@ -600,7 +649,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-11-13 11:43:13.000000000 Z
@@ -621,7 +670,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18529/default_6d0416098b5583c02111044f891c8f1f8e30a97e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-11-13 11:43:13.000000000 Z
@@ -635,7 +684,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-11-13 11:43:13.000000000 Z
@@ -649,7 +698,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-04-19 14:34:21.000000000 Z
@@ -663,11 +712,17 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2021-06-15 12:12:02.000000000 Z
   vulnerabilities:
+  - name: sharp vulnerability in libwebp dependency CVE-2023-4863
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-54xq-cgqr-rpm3
+    detected_date: Nov 17
+    severity: high
+    first_patched: 0.32.6
   - name: sharp vulnerable to Command Injection in post-installation over build environment
     cve_id: CVE-2022-29256
     cve_url: https://github.com/advisories/GHSA-gp95-ppv5-3jc5
@@ -684,7 +739,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-04-12 10:07:12.000000000 Z
@@ -698,7 +753,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -748,7 +803,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2020-07-16 12:44:59.000000000 Z
@@ -762,7 +817,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Brent Vatne
   last_updated_on: 2021-03-29 23:29:56.000000000 Z
@@ -776,7 +831,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16810/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Brent Vatne
   last_updated_on: 2020-10-03 01:57:38.000000000 Z
@@ -790,7 +845,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16403/default_3d8bf87f0e09f3da6536330e02ffa89677f8784b.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2019-04-03 09:37:44.000000000 Z
@@ -804,7 +859,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Dominik Sokal
   last_updated_on: 2018-06-19 08:26:03.000000000 Z
@@ -818,7 +873,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16482/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/turtle/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Wojciech Kozyra
   last_updated_on: 2019-05-30 13:42:21.000000000 Z
