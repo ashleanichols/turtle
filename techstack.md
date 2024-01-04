@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ashleanichols/turtle is built on the following main stack:
+
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
 - [Stackdriver](https://cloud.google.com/stackdriver/) – Cloud Monitoring
@@ -22,11 +23,13 @@ ashleanichols/turtle is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ashleanichols/turtle is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/191/default_9262326592c97828a2a4299dec085a3674dd05f4.png' alt='Sentry'/> [Sentry](https://sentry.io/welcome/?utm_source=stackshare&utm_medium=link&utm_campaign=profile) – Exception Monitoring
 - <img width='25' height='25' src='https://img.stackshare.io/service/734/lHYLxJV3_400x400.jpg' alt='Stackdriver'/> [Stackdriver](https://cloud.google.com/stackdriver/) – Cloud Monitoring
@@ -47,14 +50,15 @@ ashleanichols/turtle is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ashleanichols/turtle](https://github.com/ashleanichols/turtle)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|59<br/>Tools used|11/09/23 <br/>Report generated|
+|61<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -273,9 +277,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (35)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (37)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (35)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (37)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -295,8 +299,10 @@ Full tech stack [here](/techstack.md)
 |[copy](https://www.npmjs.com/copy)|v0.3.2|06/19/18|Dominik Sokal |MIT|N/A|
 |[decompress](https://www.npmjs.com/decompress)|v4.2.1|07/11/19|Dominik Sokal |MIT|N/A|
 |[fs-extra](https://www.npmjs.com/fs-extra)|v9.0.0|08/23/18|Dominik Sokal |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v1.3.1|04/03/19|Dominik Sokal |MIT|N/A|
 |[ioredis](https://www.npmjs.com/ioredis)|v4.17.3|06/22/20|Dominik Sokal |MIT|N/A|
 |[joi](https://www.npmjs.com/joi)|v11.4.0|06/19/18|Dominik Sokal |BSD-3-Clause|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v8.1.5|04/03/19|Dominik Sokal |MIT|N/A|
 |[nock](https://www.npmjs.com/nock)|v10.0.6|11/22/18|Haito |MIT|N/A|
 |[progress](https://www.npmjs.com/progress)|v2.0.3|10/16/18|Dominik Sokal |MIT|N/A|
 |[raven](https://www.npmjs.com/raven)|v2.6.3|01/17/20|Quinlan Jung |MIT|N/A|
@@ -305,7 +311,7 @@ Full tech stack [here](/techstack.md)
 |[request-progress](https://www.npmjs.com/request-progress)|v3.0.0|11/13/19|Dominik Sokal |MIT|N/A|
 |[request-promise](https://www.npmjs.com/request-promise)|v4.2.5|11/13/19|Dominik Sokal |ISC|N/A|
 |[rimraf](https://www.npmjs.com/rimraf)|v2.6.3|04/19/19|Dominik Sokal |ISC|N/A|
-|[sharp](https://www.npmjs.com/sharp)|v0.28.3|06/15/21|Wojciech Kozyra |Apache-2.0|[CVE-2022-29256](https://github.com/advisories/GHSA-gp95-ppv5-3jc5) (Moderate)|
+|[sharp](https://www.npmjs.com/sharp)|v0.28.3|06/15/21|Wojciech Kozyra |Apache-2.0|[](https://github.com/advisories/GHSA-54xq-cgqr-rpm3) (High)<br/>[CVE-2022-29256](https://github.com/advisories/GHSA-gp95-ppv5-3jc5) (Moderate)|
 |[source-map-support](https://www.npmjs.com/source-map-support)|v0.4.18|04/12/19|Dominik Sokal |MIT|N/A|
 |[tar](https://www.npmjs.com/tar)|v4.4.6|06/19/18|Dominik Sokal |ISC|[CVE-2021-37712](https://github.com/advisories/GHSA-qq89-hq3f-393p) (High)<br/>[CVE-2021-37713](https://github.com/advisories/GHSA-5955-9wpr-37jh) (High)<br/>[CVE-2021-32803](https://github.com/advisories/GHSA-r628-mhmh-qjhw) (High)<br/>[CVE-2021-37701](https://github.com/advisories/GHSA-9r2w-394v-53qc) (High)<br/>[CVE-2021-32804](https://github.com/advisories/GHSA-3jfq-g458-7qm9) (High)|
 |[ts-jest](https://www.npmjs.com/ts-jest)|v26.1.2|07/16/20|Dominik Sokal |MIT|N/A|
@@ -318,4 +324,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
